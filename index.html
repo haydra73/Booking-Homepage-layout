@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>trillo &mdash; Your all-in-one booking app</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__logo-box">
+                <img src="img/logo.png" alt="trillo logo" class="header__logo">
+                <span class="header__logo-name">Trillo</span>
+            </div>
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="Search hotels">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+
+                    <span class="user-nav__notification">7</span>
+                </div>
+
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+
+                    <span class="user-nav__notification">4</span>
+                </div>
+
+                <div class="user-nav__user">
+                    <img src="img/user.jpg" alt="user photo" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">Hayder</span>
+
+                    <div class="user-subnav">
+                        <ul class="user-subnav__list">
+                            <li class="user-subnav__item user-subnav__item--active">
+                                <a href="#" class="user-subnav__link">
+                                    <svg class="user-subnav__icon">
+                                        <use xlink:href="img/dashboard.svg#icon-user"></use>
+                                    </svg>
+                                    <span class="user-subnav__menu">Profile</span>
+                                </a>
+                            </li>
+                            <li class="user-subnav__item">
+                                <a href="#" class="user-subnav__link">
+                                    <svg class="user-subnav__icon">
+                                        <use xlink:href="img/dashboard.svg#icon-ticket"></use>
+                                    </svg>
+                                    <span class="user-subnav__menu">Bookings</span>
+                                </a>
+                            </li>
+                            <li class="user-subnav__item">
+                                <a href="#" class="user-subnav__link">
+                                    <svg class="user-subnav__icon">
+                                        <use xlink:href="img/dashboard.svg#icon-credit"></use>
+                                    </svg>
+                                    <span class="user-subnav__menu">Payments</span>
+                                </a>
+                            </li>
+                            <li class="user-subnav__item">
+                                <a href="#" class="user-subnav__link">
+                                    <svg class="user-subnav__icon">
+                                        <use xlink:href="img/dashboard.svg#icon-log-out"></use>
+                                    </svg>
+                                    <span class="user-subnav__menu">Log out</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+           
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span class="side-nav__menu">Hotel</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                            </svg>
+                            <span class="side-nav__menu">Flight</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-key"></use>
+                                <use xlink:href="#icon-1" />
+                            </svg>
+                            <span class="side-nav__menu">Car rental</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-map"></use>
+                            </svg>
+                            <span class="side-nav__menu">Tours</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="legal">
+                    &copy; 2022 by trillo. All rights reserved. Coded by Hayder Mekonnen Yimer.
+                </div>
+            </nav>
+            <main class="hotel-view">
+                <div class="gallery">
+                    <figure class="gallery__item">
+                        <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                        <figcaption class="gallery__item-caption">Gaze at the night sky while wet</figcaption>
+                    </figure>
+                    <figure class="gallery__item">
+
+                        <img src="img/hotel-2.jpg" alt="Photo of hotel 2" class="gallery__photo">
+                        <figcaption class="gallery__item-caption">Drink and act like a model while you're not
+                        </figcaption>
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/hotel-3.jpg" alt="Photo of hotel 3" class="gallery__photo">
+                        <figcaption class="gallery__item-caption">5 star ratings for suicide cliffs</figcaption>
+                    </figure>
+                </div>
+
+                <div class="overview">
+                    <h1 class="overview__heading">
+                        Langano lux hotel
+                    </h1>
+                    <div class="overview__stars">
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </div>
+                    <div class="overview__location">
+                        <svg class="overview__icon-location">
+                            <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                        </svg>
+                        <button class="btn-inline"
+                            onclick="location.href='https://www.tripadvisor.com/Tourism-g293791-Addis_Ababa-Vacations.html'">Addis
+                            Abeba, Ethiopia</button>
+                    </div>
+
+                    <div class="overview__rating">
+                        <div class="overview__rating-average">8.6</div>
+                        <div class="overview__rating-count">429 votes</div>
+                    </div>
+                </div>
+
+                <div class="detail">
+
+                    <div class="description">
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis
+                            ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                            architecto voluptate.
+
+                        </p>
+
+                        <p class="paragraph">
+                            Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus,
+                            inventore iure aliquid aliquam.
+
+                        </p>
+
+                        <p class="paragraph">
+
+                            Joret consectetur adipisicing elit. Temporibus vero, deleniti aperiam
+                            molestiae commodi nobis dignissimos eligendi non voluptatem? Reiciendis nisi molestias, ea
+                            provident adipisci harum facilis aliquid deserunt ipsam.
+                        </p>
+
+                        <ul class="list">
+                            <li class="list__item">Close to the beach</li>
+                            <li class="list__item">Breakfast Included</li>
+                            <li class="list__item">Free airport shuttle</li>
+                            <li class="list__item">Free wifi in all rooms</li>
+                            <li class="list__item">Air conditioning and heating</li>
+                            <li class="list__item">Pets allowed</li>
+                            <li class="list__item">We speak all languages</li>
+                            <li class="list__item">Perfect for families</li>
+                        </ul>
+
+                        <div class="recommend">
+                            <p class="recommend__count">
+                                Melissa and 3 other friends recommend this hotel.
+                            </p>
+
+                            <div class="recommend__friends">
+                                <img src="img/user-3.jpg" alt="friend 1" class="recommend__photo">
+                                <img src="img/user-4.jpg" alt="friend 2"
+                                    class="recommend__photo recommend__photo--main">
+                                <img src="img/user-5.jpg" alt="friend 3" class="recommend__photo">
+                                <img src="img/user-6.jpg" alt="friend 4" class="recommend__photo">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user-reviews">
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Gerçekten bu otel çok efsane, bir gittim çıkmak bile istemedim. Yemekte çok
+                                efsaneydi, büfeyi gördüğümde hamileler gibi aşeriyordum. Hizmet Türkiyedeki gibi değil,
+                                sabırlılardı ve yemeklerimi bitmeden önce elimden almıyorlardı. Herkesin gitmesini
+                                öneririm!
+                            </blockquote>
+
+                            <figcaption class="review__user">
+                                <img src="img/user-4.jpg" alt="User 1" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Melissa Demircioğlu</p>
+                                    <p class="review__user-date">Jan 5th, 2023</p>
+                                </div>
+
+                                <div class="review__rating">6.9</div>
+                            </figcaption>
+                        </figure>
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lan nasıl bir maceraydı, gitmeyenlere geçmiş olsun derim. Yüzmeyi sevmiyom ama yüzdüm,
+                                havuzda takılmayı sevmiyom ama takıldım, gece partilere gitmek pek sevmiyom ama yine
+                                gittim
+                                eğlendim. Allah bereket versin bu oteli yapana.
+                            </blockquote>
+
+                            <figcaption class="review__user">
+                                <img src="img/user-2.jpg" alt="User 1" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Enes Yaralı</p>
+                                    <p class="review__user-date">Oct 12th, 2023</p>
+                                </div>
+
+                                <div class="review__rating">9.1</div>
+                            </figcaption>
+                        </figure>
+
+                        <button class="btn-inline">
+                            Show all <span>&rarr;</span>
+                        </button>
+                    </div>
+
+
+                </div>
+
+                <div class="cta">
+                    <h2 class="cta__book-now">
+                        Good news! We have 4 free rooms for your selected dates.
+                    </h2>
+
+                    <button class="btn" type="button">
+                        <span class="btn__visible">Book now</span>
+                        <span class="btn__invisible">Only 4 rooms left!</span>
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
